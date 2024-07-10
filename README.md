@@ -20,40 +20,42 @@ To use this tool, you need to have Python 3 installed on your system. You can in
    ```bash
    git clone https://github.com/shuvrobasu/vulnerability_scanner.git
    cd vulnerability_scanner
-Usage
+# Usage
+
 Run the Scanner:
 
-bash
-Copy code
+bash 
 python scanner.py
+
 Follow the prompts:
 
-Enter the domain you wish to scan (e.g., example.com).
-Choose the case option (lowercase, uppercase, or both).
-Decide whether to view the found links.
-Choose whether to save the results to a file.
-Example
-bash
-Copy code
-Enter the domain name (e.g., example.com) [Blank to Exit]: example.com
-Do you want to scan with lower case, upper case, or both? (l/u/b): b
-Do you want to see the links? (y/n): y
-Do you want to save the found links to a file? (y/n): y
-Customization
-You can customize the list of directories to scan by modifying the directories list in the scanner.py script. You can also adjust the terminal color codes and banner text as needed.
+<br>Enter the domain you wish to scan (e.g., example.com).
+<br>Choose the case option (lowercase, uppercase, or both).
+<br>Decide whether to view the found links.
+<br>Choose whether to save the results to a file.
 
-Contribution
-Contributions are welcome! If you have suggestions or improvements, please submit an issue or a pull request. Ensure that your code adheres to the existing style and includes appropriate tests.
+# Example
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+<br>Enter the domain name (e.g., example.com) [Blank to Exit]: example.com
+<br>Do you want to scan with lower case, upper case, or both? (l/u/b): b
+<br>Do you want to see the links? (y/n): y
+<br>Do you want to save the found links to a file? (y/n): y
 
-Disclaimer
-[!] Legal disclaimer: Usage of this tool without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program.
+# Customization
+<br>You can customize the list of directories to scan by modifying the directories list in the scanner.py script. You can also adjust the terminal color codes and banner text as needed.
 
-Contact
-For any questions or feedback, please contact:
+# Contribution
+<br>Contributions are welcome! If you have suggestions or improvements, please submit an issue or a pull request. Ensure that your code adheres to the existing style and includes appropriate tests.
 
-Developer: Shuvro Basu
-Email: shuvbasu24@gmail.com
-GitHub: shuvrobasu
+# License
+<br>This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Disclaimer
+<br>[!] Legal disclaimer: Usage of this tool without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program.
+
+# Contact
+<br>For any questions or feedback, please contact:
+
+<br>Developer: Shuvro Basu
+<br>Email: shuvbasu24@gmail.com
+<br>GitHub: shuvrobasu
